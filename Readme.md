@@ -3,6 +3,9 @@ Latest version of my CV, typesetted in Helvetica and using colors inspired by Mo
 
 Uses TikZ for the header, XeTeX and fontspec to use Helvetica Neue, biblatex to print my publications and textpos for the aside.
 
+NOTE TO SELF: In order to generate the printable (b&w) style, you change `\documentclass[]{friggeri-cv}` to `\documentclass[print]{friggeri-cv}`
+
+Then it's just `xelatex cv.tex`
 
 # License
 
